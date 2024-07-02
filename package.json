@@ -1,0 +1,23 @@
+{
+  "name": "websocket-demo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "dev:demoa": "nodemon ./demoa/server.js",
+    "dev:demob": "nodemon ./demob/server.js",
+    "lintf": "eslint --fix ."
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.2",
+    "eslint": "9.5.0",
+    "eslint-plugin-format": "^0.1.2"
+  }
+}
